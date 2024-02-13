@@ -1,0 +1,230 @@
+.header {
+    background-color: #1F2937;
+    height: 50px;
+    width: auto;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header1 {
+    flex: 1;
+}
+.headLogo p{
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header2 {
+    flex: 1;
+    justify-content: space-between; /* Centra horizontalmente */
+    align-items: center;
+    
+}
+.link {
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.block1 {
+    background-color: #1F2937;
+    display: flex;
+    height: 300px;
+    width: auto;
+}
+.flex-text {
+    flex: 1;
+    margin-top: 45px;
+}
+.h3-box {
+    height: 70px;
+    width: 150px;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    margin-left: 100px;
+}
+.first-button {
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    margin-top: 10px;
+}
+#firstButton {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 5px ;
+}
+.img-box {
+    background-color: gray;
+    width: 400px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+.flex-img {
+    flex: 1;
+}
+#text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+}
+.awesome-site {
+    width: 200px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+#text2 {
+    color: rgb(148, 146, 146);
+    text-align: left;
+}
+#img-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.block2 {
+    background-color: white;
+    display: block;
+    height: 200px;
+    width: auto;
+}
+.random-box {
+    text-align: center;
+}
+#random-text {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 700;
+}
+.flex-by-four {
+    display: flex;
+}   
+.flex-by-four div{
+    flex: 1 1 auto;
+    height: 100px;
+    width: 100px;
+    border: 4px black;
+    border-radius: 6px;
+}
+.flex-by-four .second{
+    flex-shrink: 0;
+}
+.second-flex-container {
+    display: flex;
+  }
+.second-flex-container div {
+    display: flex;
+    justify-content: space-between
+  }
+.second-flex-container .flex-one {
+    flex: 1;
+    background-color: black;
+}
+.second-flex-container .flex-two {
+    flex: 1;
+    background-color:brown;
+}
+.second-flex-container .flex-three {
+    flex: 1;
+    background-color: burlywood;
+}
+.second-flex-container .flex-four {
+    flex: 1;
+    background-color: blanchedalmond;
+}
+.block3 {
+    background-color: gray;
+    height: 300px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.center {
+    height: 200px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box3-text{
+    flex: 1;
+}
+#box3-text {
+    color: black;
+    font-size: 25px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif; 
+    font-weight: lighter;
+    font-style: italic;
+}
+.box3-signa {
+    flex:1;
+    justify-content: flex-end;
+}
+#signa {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+.block4 {
+    background-color: wheat;
+    height: 150px;
+    width: auto;
+    display: block;
+}
+.block5 {
+    display: flex;
+    padding: 20px;
+    background-color: #3882F6;
+    margin-top: 0px;
+    border-top: 0px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+.call-to-action {
+    color: white;
+    flex: 1;
+    padding: 10px;
+} 
+.call-to-action2 {
+    flex: 1;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up-button {
+    background-color: #3882F6;
+    color: white;
+    width: 80px;
+    height: 25px;    
+    cursor: pointer;
+    border-radius: 5px ;
+}
+.footer {
+    height: 40px;
+    background-color: #1F2937 ;
+    display: flex;
+}
+#footer-para {
+    color: white;
+    margin-top: 15px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 347.79px ;   
+}
